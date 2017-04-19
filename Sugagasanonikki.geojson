@@ -1,0 +1,257 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "本居宣長旧宅",
+        "date": "1772-03-05"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.52570486068726,
+          34.575312915279234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "市場庄町",
+        "date": "1772-03-05"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.51317358016968,
+          34.606791041014034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "三渡",
+        "date": "1772-03-05"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.51821613311768,
+          34.61246007533522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "津屋庄",
+        "date": "1772-03-05"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.4998912811279,
+          34.61565646295641
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "天花寺廃寺",
+        "date": "1772-03-05"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.46457195281982,
+          34.63341977741256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "小川神社",
+        "date": "1772-03-05"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.4751935005188,
+          34.63184842479187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "都川",
+        "date": "1772-03-05"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.4724898338318,
+          34.638221929015515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "都の里",
+        "date": "1772-03-05"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.46965742111206,
+          34.64018155070672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "八太という駅",
+        "date": "1772-03-05"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.44916534423828,
+          34.65027904726797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "八太川",
+        "date": "1772-03-05"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.44096851348877,
+          34.653509280399774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "田尻村",
+        "date": "1772-03-05"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.4302396774292,
+          34.65721595019747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "大仰里",
+        "date": "1772-03-05"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.4032459259033,
+          34.64821375028462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "谷戸里",
+        "date": "1772-03-05"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.4202618598938,
+          34.65292678864614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "大仰川",
+        "date": "1772-03-05"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.39916896820068,
+          34.643200336753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "小倭の二本木",
+        "date": "1772-03-05"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.37041568756104,
+          34.66233441215118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "垣内",
+        "date": "1772-03-05"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.31235122680664,
+          34.669076179524566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "手向（峠？）",
+        "date": "1772-03-05"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.26793384552002,
+          34.67061153152021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "伊勢地",
+        "date": "1772-03-05"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.21270179748535,
+          34.679346613366604
+        ]
+      }
+    }
+  ]
+}
