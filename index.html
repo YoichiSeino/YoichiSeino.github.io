@@ -22,7 +22,7 @@ L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png', {
 map.setView([35.3622222, 138.7313889], 5);
 
   // load GeoJSON from an external file
-  $.getJSON("sugagasanonikki.geojson",function(data){
+  $.getJSON("Sugagasanonikki.geojson",function(data){
     // add GeoJSON layer to the map once the file is loaded
     L.geoJson(data).addTo(map);
   });
