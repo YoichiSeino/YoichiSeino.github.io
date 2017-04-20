@@ -298,7 +298,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "岡田",
+        "name": "岡田里",
         "date": "1772-03-06"
       },
       "geometry": {
@@ -312,7 +312,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "別府",
+        "name": "別府里",
         "date": "1772-03-06"
       },
       "geometry": {
@@ -326,7 +326,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "大村神社(大森明神)",
+        "name": "大村神社(阿保の大森明神)",
         "date": "1772-03-06"
       },
       "geometry": {
@@ -334,6 +334,272 @@
         "coordinates": [
           136.1837339401245,
           34.670823301976036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "阿保の宿",
+        "date": "1772-03-06"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.1776828765869,
+          34.66794670701665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "昨日の雨に水増さりて、橋もなければ、衣掲げて徒歩渡りす。水いと寒し。",
+        "date": "1772-03-06"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.17886304855347,
+          34.67096448197915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "羽根",
+        "date": "1772-03-06"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.16877794265744,
+          34.66501706593038
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "羽根川。板橋を渡る。",
+        "date": "1772-03-06"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.16721153259277,
+          34.66296096077469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "七見峠。四五丁ばかり坂路を上る。この坂の手向より、阿保の七村を見下ろす故に。",
+        "date": "1772-03-06"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.15933656692505,
+          34.66132839459187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "新田。この手前に並木の松原というところがあった。",
+        "date": "1772-03-06"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.13702058792114,
+          34.6650347146808
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "新田の里の末に仮初めなる庵の前なる庭に、池など有て、糸桜いとおもしろく咲たる所あり。",
+        "date": "1772-03-06"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.13021850585938,
+          34.666358360248864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "名張の郡の境界",
+        "date": "1772-03-06"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.11579895019528,
+          34.64800192204386
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "是よりなだらかなる松山の道",
+        "date": "1772-03-06"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.11931800842285,
+          34.65562739772513
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "布引の山",
+        "date": "1772-03-06"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.2678050994873,
+          34.660392963797946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "倉持(蔵持と今は書く)",
+        "date": "1772-03-06"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.10766649246216,
+          34.6391399557529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "名張",
+        "date": "1772-03-06"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.08891248703003,
+          34.61987691882312
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "此辺り領る藤堂の何某主の家",
+        "date": "1772-03-06"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.0910153388977,
+          34.62217247415933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "町屋のはずれに、川の流れ合ふ所に、板橋を二渡せり。",
+        "date": "1772-03-06"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.084223985672,
+          34.617475346819894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "名張川簗瀬川「なばりの横川」",
+        "date": "1772-03-06"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.0834836959839,
+          34.61814638128706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "鹿高",
+        "date": "1772-03-06"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.06080293655396,
+          34.589534308680335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "この辺りに「山の岨より、川中まで連なり出でたる岩が根の、いといと大きなる上を、伝ひゆく所、右の方なる山より、足元に滝落ちなどして、えもいはずおもしろき景色也。」の場所か。",
+        "date": "1772-03-06"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.05342149734497,
+          34.58760882146328
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "この辺りに「いと高く見上ぐる、岩岸の額に、物より離れて、道の上へ一丈ばかりさし出たる岩あり。その下ゆく程は、頭の上にも落ちかかりぬべくて、いといと危し。すこし行過ぎて、つらつら顧みれば、いと奇しき見物になん有ける。獅子舞岩とぞ、此辺りの人は言ける。」か。」",
+        "date": "1772-03-06"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.05270266532898,
+          34.5873526753057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "石の地蔵。伊賀と大和の境。",
+        "date": "1772-03-06"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.04769229888916,
+          34.58400503741556
         ]
       }
     }
