@@ -242,7 +242,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "伊勢地",
+        "name": "伊勢地、松本の何某といふ者の家に宿りぬ",
         "date": "1772-03-05"
       },
       "geometry": {
@@ -250,6 +250,90 @@
         "coordinates": [
           136.21270179748535,
           34.679346613366604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "中山はこの辺りか？",
+        "date": "1772-03-06"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.2042689323425,
+          34.680070083881866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "朝川",
+        "date": "1772-03-06"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.20072841644287,
+          34.678676074074396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "阿保山より出ずる阿保川",
+        "date": "1772-03-06"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.2208127975464,
+          34.67613503380097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "岡田",
+        "date": "1772-03-06"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.19450569152832,
+          34.67484683777053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "別府",
+        "date": "1772-03-06"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.1842703819275,
+          34.6727115646044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "大村神社(大森明神)",
+        "date": "1772-03-06"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.1837339401245,
+          34.670823301976036
         ]
       }
     }
