@@ -24,7 +24,7 @@ map.setView([34.467222, 136.000443], 11);
   
   function onEachFeature(feature, layer) {
         if (feature.properties && feature.properties.name) {
-        layer.bindPopup(feature.properties.date + '<br/>' +feature.properties.name);
+        layer.bindTooltip(feature.properties.date + '<br/>' +feature.properties.name);
     }
 }
   // load GeoJSON from an external file
