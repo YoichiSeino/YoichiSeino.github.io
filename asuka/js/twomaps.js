@@ -4,7 +4,7 @@ var aerial_layer = L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/seamlesspho
     maxNativeZoom: 18
 });
 
-var aerial_old_layer = L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/gazo2/{z}/{x}/{y}.jpg', {
+var aerial_old_layer = L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/gazo1/{z}/{x}/{y}.jpg', {
     attribution: 'map data &copy; <a href="https://maps.gsi.go.jp/development/ichiran.html">地理院タイル（写真および国土画像情報（第一期：1974～1978年撮影）</a>',
     maxZoom: 18,
     maxNativeZoom: 18
