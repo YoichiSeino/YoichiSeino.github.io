@@ -2,38 +2,17 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>菅笠日記の地名 powered by 地理院地図</title>
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
-<script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
-<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<style>
-  body {padding: 0; margin: 0}
-  html, body, #map {height: 100%; width: 100%;}
-</style>
+<title>YoichiSeino GitHub Pages</title>
 </head>
 
 <body>
-<div id="map"></div>
-<script>
-var map = L.map('map');
-L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png', {
-  attribution: "<a href='http://maps.gsi.go.jp/development/ichiran.html' target='_blank'>地理院タイル</a>"
-}).addTo(map);
-map.setView([34.467222, 136.000443], 11);
+<ul>
+  <li><a href="https://yoichiseino.github.io/sugegasa/index.html">菅笠日記の地名</a>
+  <li><a href="https://yoichiseino.github.io/asuka/index.html">明日香村川原の比較地図</a>
+</ul>
 
-  
-  function onEachFeature(feature, layer) {
-        if (feature.properties && feature.properties.name) {
-        layer.bindTooltip(feature.properties.date + '<br/>' +feature.properties.name);
-    }
-}
-  // load GeoJSON from an external file
-  $.getJSON("Sugagasanonikki.geojson",function(data){
-    // add GeoJSON layer to the map once the file is loaded
-    L.geoJSON(data, {
-      onEachFeature: onEachFeature
-             }).addTo(map);
-  });
-</script>
+
+
+
 </body>
 </html>
