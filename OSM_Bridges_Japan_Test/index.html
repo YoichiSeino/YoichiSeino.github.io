@@ -2,9 +2,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Bridges in Japan from OpenStreetMap powered by 地理院地図</title>
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
-<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+<title>菅笠日記の地名 powered by 地理院地図</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <style>
   body {padding: 0; margin: 0}
@@ -19,16 +19,16 @@ var map = L.map('map');
 L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png', {
   attribution: "<a href='http://maps.gsi.go.jp/development/ichiran.html' target='_blank'>地理院タイル</a>"
 }).addTo(map);
-map.setView([33.463525, 133.365784], 9);
+map.setView([34.467222, 136.000443], 11);
 
-
+  
   function onEachFeature(feature, layer) {
         if (feature.properties && feature.properties.name) {
         layer.bindTooltip(feature.properties.date + '<br/>' +feature.properties.name);
     }
 }
   // load GeoJSON from an external file
-  $.getJSON("../../OSM_Bridges_Japan/tree/master/japan_osm_data/bridge_shikoku_japan20200503.geojson",function(data){
+  $.getJSON("Sugagasanonikki.geojson",function(data){
     // add GeoJSON layer to the map once the file is loaded
     L.geoJSON(data, {
       onEachFeature: onEachFeature
