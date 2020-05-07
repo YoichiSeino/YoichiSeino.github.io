@@ -28,7 +28,7 @@ map.setView([33.463525, 133.365784], 9);
     }
 }
   // load GeoJSON from an external file
-  $.getJSON("../../OSM_Bridges_Japan/tree/master/japan_osm_data/bridge_shikoku_japan20200503.geojson",function(data){
+  $.getJSON("./bridge_shikoku_japan20200503.geojson",function(data){
     // add GeoJSON layer to the map once the file is loaded
     L.geoJSON(data, {
       onEachFeature: onEachFeature
