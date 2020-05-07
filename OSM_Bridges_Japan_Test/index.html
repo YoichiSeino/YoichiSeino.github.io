@@ -15,12 +15,26 @@
 <body>
 <div id="map"></div>
 <script>
-var map = L.map('map');
-L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png', {
-  attribution: '<a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a> | <a href="https://www.openstreetmap.org/copyright" target="_blank">© OpenStreetMap contributors</a>'
-}).addTo(map);
-map.setView([33.463525, 133.365784], 9);
+var gsi_pale_map = L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
+  attribution: '<a href="http://maps.gsi.go.jp/development/ichiran.html" target="_blank">地理院タイル</a> | <a href="https://www.openstreetmap.org/copyright" target="_blank">© OpenStreetMap contributors</a>')
+    OpenStreetMap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap contributors</a>'
+      })
 
+
+var map = L.map('map', {
+    center: [33.463525, 133.365784],
+    zoom: 9,
+    layers: [gsi_pale_map, OpenStreetMap]
+});
+
+var baseMaps = {
+        "地理院地図": gsi_pale_map,
+        "OpenStreetMap": OpenStreetMap
+};
+
+L.control.layers(baseMaps).addTo(map);
 
   function onEachFeature(feature, layer) {
         if (feature.properties && feature.properties.name) {
