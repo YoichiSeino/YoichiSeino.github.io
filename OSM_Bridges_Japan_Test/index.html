@@ -39,13 +39,13 @@ var baseMaps = {
 
 L.control.layers(baseMaps).addTo(map);
 
-    onEachFeature: function (feature, layer) {
-        var popupcontent = [];
-        for (var prop in feature.properties) {
-            popupcontent.push(prop + ": " + feature.properties[prop]);
-        }
-        layer.bindPopup(popupcontent.join("<br />"));
-    }
+//    onEachFeature: function (feature, layer) {
+//        var popupcontent = [];
+//        for (var prop in feature.properties) {
+//            popupcontent.push(prop + ": " + feature.properties[prop]);
+//        }
+//        layer.bindPopup(popupcontent.join("<br />"));
+//    }
 
   // load GeoJSON from an external file
   $.getJSON("./bridge_shikoku_japan20200503.geojson",function(data){
