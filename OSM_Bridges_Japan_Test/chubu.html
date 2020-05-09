@@ -48,7 +48,7 @@ L.control.layers(baseMaps).addTo(map);
     }
 
   // load GeoJSON from an external file
-  $.getJSON("./bridge_chubu_japan20200503.geojson",function(data){
+  $.getJSON("https://github.com/YoichiSeino/OSM_Bridges_Japan/raw/master/japan_osm_data/bridge_chubu_japan20200503.geojson",function(data){
     // add GeoJSON layer to the map once the file is loaded
     L.geoJSON(data, {
         onEachFeature: onEachFeature
