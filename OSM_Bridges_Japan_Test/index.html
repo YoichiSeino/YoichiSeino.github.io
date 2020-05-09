@@ -50,7 +50,9 @@ L.control.layers(baseMaps).addTo(map);
   // load GeoJSON from an external file
   $.getJSON("./bridge_shikoku_japan20200503.geojson",function(data){
     // add GeoJSON layer to the map once the file is loaded
-    L.geoJSON(data).addTo(map);
+    L.geoJSON(data, {
+        onEachFeature: onEachFeature
+    }).addTo(map);
   });
 </script>
 </body>
