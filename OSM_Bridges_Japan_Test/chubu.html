@@ -43,7 +43,7 @@ L.control.layers(baseMaps).addTo(map);
 
 var markers = L.markerClusterGroup();
 //    markers.addLayer(marker);
-    map.addLayer(markers);
+
 
 
     function onEachFeature(feature, layer) {
@@ -61,6 +61,7 @@ var markers = L.markerClusterGroup();
         onEachFeature: onEachFeature
     }).addTo(map);
   });
+  map.addLayer(markers);
     </script>
 </body>
 </html>
