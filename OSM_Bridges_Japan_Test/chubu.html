@@ -39,12 +39,12 @@ var baseMaps = {
         "地理院地図（淡色地図）": gsi_pale_map,
         "OpenStreetMap": OpenStreetMap
 };
+L.control.layers(baseMaps).addTo(map);
 
 var markers = L.markerClusterGroup();
-    markers.addLayer(marker);
+//    markers.addLayer(marker);
     map.addLayer(markers);
 
-L.control.layers(baseMaps).addTo(map);
 
     function onEachFeature(feature, layer) {
         var popupcontent = [];
