@@ -39,9 +39,12 @@ var baseMaps = {
 
 L.control.layers(baseMaps).addTo(map);
 
-  function onEachFeature(feature, layer) {
-        if (feature.properties && feature.properties.name) {
-        layer.bindPopup(feature.properties.date + '<br/>' +feature.properties.name);
+    onEachFeature: function (feature, layer) {
+        var popupcontent = [];
+        for (var prop in feature.properties) {
+            popupcontent.push(prop + ": " + feature.properties[prop]);
+        }
+        layer.bindPopup(popupcontent.join("<br />"));
     }
 }
   // load GeoJSON from an external file
